@@ -108,6 +108,6 @@
     </div><!-- Content row -->
   </div><!-- Conatiner end -->
 
-  <script src="JS.js"></script>
+  <script src="formulário/JS.js"></script>
 
 </section><!-- Main container end -->

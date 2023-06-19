@@ -1,0 +1,111 @@
+/*começo cards serviço*/
+
+.arrumar {
+    display: flex;
+    margin-left: -80px;
+  }
+  
+  .containere {
+    width: 100%;
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carda {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-color: whitesmoke;
+    transition: all .5s;
+  }
+  
+  .carda .img {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: .8;
+  }
+  
+  .carda .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+  }
+  
+  .carda:hover .img {
+    width: 430px;
+    opacity: 1;
+  }
+  
+  .carda:hover .img span {
+    font-size: 28px;
+  }
+  
+  .carda .contente {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+  }
+  
+  .carda:hover .contente {
+    height: 100px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .carda .contente p {
+    margin: 0;
+  }
+  
+  .carda .contente .title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .carda .contente .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+  }
+  
+  .carda .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+  }
+  
+  .carda:hover .arrow {
+    transform: rotate(0);
+  }
+  
+  .carda .arrow span {
+    font-size: 24px;
+  }
+  
+  
+  /*fim cards serviço*/
