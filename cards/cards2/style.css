@@ -4,7 +4,7 @@
     justify-content: center;
 }
 
-.arrumar {
+.arrumou {
     margin: 50px;
     display: flex;
     justify-content: center;
@@ -24,9 +24,23 @@
 }
 
 .texto {
-    border: 1px solid green;
+    text-align: center;
+    border: 2px solid #39FF14;
     border-radius: 20px;
-    padding: 55px 20px 40px 20px;
+    padding: 50px 10px 38px 10px;
     margin: -30px;
+    background-color: white;
     z-index: -1;
+    color: #107266;
+    transition: 0.5s;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.texto:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    background-color: #107266;
 }

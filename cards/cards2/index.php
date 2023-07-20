@@ -8,28 +8,28 @@
 </head>
 <body>
     <div class="tudo">
-    <div class="arrumar">
+    <div class="arrumou">
 
     <img class="mao"src="parceiro-emissao.png" alt="mão azul" style="padding:18px 17px !important;">
 
-    <h3 class="texto">textotextotextotextotextotexto</h3>
+    <a class="link" href="https://cervinixdigital.com.br/contador-parceiro"><h3 class="texto">Clique para acessar o Sistema de emissao</h3></a>
 
     </div>
 
     <body>
-    <div class="arrumar">
+    <div class="arrumou">
 
     <img class="mao"src="parceiro-vendas.png" alt="mão azul">
 
-    <h3 class="texto">textotextotextotextotextotexto</h3>
+    <a class="link" href="https://cervinixdigital.com.br/contador-parceiro"><h3 class="texto">Clique para ser Parceiro Contador</h3></a>
 
     </div>
 
-    <div class="arrumar">
+    <div class="arrumou">
 
 <img class="mao"src="portal-parceiro.png" alt="mão azul">
 
-<h3 class="texto">textotextotextotextotextotexto</h3>
+<a class="link" href="https://cervinixdigital.com.br/contador-parceiro"><h3 class="texto">Clique para ser Parceiro Software House</h3></a>
 
 </div>
 
