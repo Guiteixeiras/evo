@@ -12,7 +12,7 @@
 <body>
 
     <ul class="separar">
-        <li><a href="#">inicio</a></li>
+        <li><a href="<?php echo INCLUDE_PATH; ?>">inicio</a></li>
         <li>
             <a href="#">suporte ↓</a>
             <ul class="dropdown">
